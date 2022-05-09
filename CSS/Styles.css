@@ -1,0 +1,99 @@
+.nav-home{
+    float: left;
+    padding-left: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav{background-color: blue;
+    height: 4rem;
+    color: whitesmoke;
+}
+.nav-links{
+    float: right;
+    padding-top: .5rem;
+}
+.nav-link{
+    color: whitesmoke;
+    display: inline-block;
+    padding-right: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav-link a{
+    color: whitesmoke;
+}
+.avatar{display: inline-block;
+}
+main{clear: both;
+}
+.featured{display: flex;
+    justify-content: space-evenly;
+    margin: 2rem 0;
+    width: 100%;
+}
+.featured-background{
+    display: flex;
+    align-items:center;
+    background: turquoise;
+    height: 15rem;
+    border: solid black 2px;
+    width: 30%;
+    background-image: url(Images/featuredPic.png);
+)
+}
+.featured-text{
+    background: rgba(245, 245, 245, .75);
+    border: solid black 2px;
+    width: 100%;
+    text-align:  center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.article{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*
+    You can use these to control width and height separately
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    */
+    grid-gap: 2rem;
+    grid-auto-rows: minmax(11rem, auto);
+    margin: 2rem;
+}
+.article-background{
+    display: flex;
+    /* height: 10rems; */
+    border: solid black 2px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Images/articlePic.jpeg);
+}
+.article-text{
+    display:flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:rgba(245, 245, 245, .75) ;
+    width: 100%;
+    /* align-items: center; */
+    justify-content: center;
+}
+.slideshow{
+    /* width:  100vw;
+    This was breaikng slideshow width for some reason. */ 
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slideshow img {
+    width: 80vw;
+    height: 50vh;
+
+}
+.cycle-slideshow{
+    height: 100%;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+}
+
